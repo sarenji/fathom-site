@@ -1,8 +1,8 @@
 html,body{padding:0;margin:0;font:100% Georgia,serif;min-height:100%;color:#333}
 html{background:-webkit-gradient(linear, left top, left bottom, color-stop(0, #ffffe3), color-stop(1, #4ca4a6));background:-webkit-linear-gradient(top, #ffffe3 0%, #4ca4a6 100%);background:-moz-linear-gradient(top, #ffffe3 0%, #4ca4a6 100%);background:linear-gradient(top, #ffffe3 0%, #4ca4a6 100%)}
-nav{background:rgba(10,0,5,0.50);padding:25px 0 20px;color:#ffffe3;font:1.5em "Josefin Sans","Helvetica Neue",sans-serif;font-weight:100;letter-spacing:1px;margin-top:20px;margin-bottom:20px}
+nav{background:rgba(10,0,5,0.05);padding:25px 0 20px;color:#2f2933;text-shadow:0 1px 0 #fff;font:1.5em "Josefin Sans","Helvetica Neue",sans-serif;font-weight:100;letter-spacing:1px;margin-top:20px;margin-bottom:20px}
 .container{width:700px;margin:0 auto}
-.island{padding:20px 40px;background:#fff;-webkit-border-radius:4px;-moz-border-radius:4px;border-radius:4px;-webkit-box-shadow:1px 1px 10px rgba(0,0,0,0.25);-moz-box-shadow:1px 1px 10px rgba(0,0,0,0.25);box-shadow:1px 1px 10px rgba(0,0,0,0.25);}
+.island{padding:20px 40px;background:rgba(255,255,255,0.50);-webkit-border-radius:4px;-moz-border-radius:4px;border-radius:4px;-webkit-box-shadow:1px 1px 10px rgba(0,0,0,0.25);-moz-box-shadow:1px 1px 10px rgba(0,0,0,0.25);box-shadow:1px 1px 10px rgba(0,0,0,0.25);}
 .island.one_half{width:290px;float:left}
 .boxes{width:780px;margin:0 auto;}
 .boxes .one_half:first-child{margin-right:40px}
