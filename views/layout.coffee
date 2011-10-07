@@ -10,5 +10,5 @@ html ->
         text "fathom"
         span ".js"
       ul
-    div '.container.catchphrase', "The easiest way to make HTML5 games in the world."
+    div '.catchphrase', "The easiest way to make HTML5 games in the world."
     @body
