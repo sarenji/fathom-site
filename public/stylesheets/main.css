@@ -1,0 +1,12 @@
+html,body{padding:0;margin:0;font:100% Georgia,serif;min-height:100%;color:#333}
+html{background:-webkit-gradient(linear, left top, left bottom, color-stop(0, #ffffe3), color-stop(1, #4ca4a6));background:-webkit-linear-gradient(top, #ffffe3 0%, #4ca4a6 100%);background:-moz-linear-gradient(top, #ffffe3 0%, #4ca4a6 100%);background:linear-gradient(top, #ffffe3 0%, #4ca4a6 100%)}
+nav{background:rgba(10,0,5,0.50);padding:25px 0 20px;color:#ffffe3;font:1.5em "Josefin Sans","Helvetica Neue",sans-serif;font-weight:100;letter-spacing:1px;margin-top:20px;margin-bottom:20px}
+.container{width:700px;margin:0 auto}
+.island{padding:20px 40px;background:#fff;-webkit-border-radius:4px;-moz-border-radius:4px;border-radius:4px;-webkit-box-shadow:1px 1px 10px rgba(0,0,0,0.25);-moz-box-shadow:1px 1px 10px rgba(0,0,0,0.25);box-shadow:1px 1px 10px rgba(0,0,0,0.25);}
+.island.one_half{width:290px;float:left}
+.boxes{width:780px;margin:0 auto;}
+.boxes .one_half:first-child{margin-right:40px}
+.catchphrase{font-family:Alice,Georgia,serif;font-weight:700;font-size:3em;letter-spacing:-2px;text-shadow:0 1px 2px rgba(47,41,51,0.50);color:#240e33;margin-top:1em;margin-bottom:1em;text-align:center}
+p{line-height:1.6em;color:#2f2933}
+::selection,::-moz-selection{background:#ff3800;text-shadow:none}
+.caps{text-transform:uppercase}

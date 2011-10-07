@@ -1,0 +1,66 @@
+light-yellow = #FFFFE3
+light-purple = #2F2933
+dark-purple  = #240E33
+red          = #FF3800
+
+html, body
+  padding    0
+  margin     0
+  font       100% Georgia, serif
+  min-height 100%
+  color      #333
+
+html
+  background    linear-gradient(top, light-yellow, #4CA4A6)
+
+nav
+  background     rgba(10, 0, 5, .5)
+  padding        25px 0 20px
+  color          light-yellow
+  font           1.5em 'Josefin Sans', 'Helvetica Neue', sans-serif
+  font-weight    100
+  letter-spacing 1px
+  margin-top     20px
+  margin-bottom  20px
+
+.container
+  width   700px
+  margin  0 auto
+
+.island
+  padding        20px 40px
+  background     white
+  border-radius  4px
+  box-shadow     1px 1px 10px rgba(0, 0, 0, .25)
+
+  &.one_half
+    width          290px
+    float          left
+
+.boxes
+  width          780px
+  margin         0 auto
+  .one_half:first-child
+    margin-right   40px
+
+.catchphrase
+  font-family    Alice, Georgia, serif
+  font-weight    700
+  font-size      3em
+  letter-spacing -2px
+  text-shadow    0 1px 2px rgba(47, 41, 51, .5)
+  color          dark-purple
+  margin-top     1em
+  margin-bottom  1em
+  text-align     center
+
+p
+  line-height    1.6em
+  color          light-purple
+
+::selection, ::-moz-selection
+  background   red
+  text-shadow  none
+
+.caps
+  text-transform uppercase
