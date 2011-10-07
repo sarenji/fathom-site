@@ -1,15 +1,17 @@
 html,body{padding:0;margin:0;font:100% Georgia,serif;min-height:100%;color:#333}
-html{background:-webkit-gradient(linear, left top, left bottom, color-stop(0, #ffffe3), color-stop(1, #4ca4a6));background:-webkit-linear-gradient(top, #ffffe3 0%, #4ca4a6 100%);background:-moz-linear-gradient(top, #ffffe3 0%, #4ca4a6 100%);background:linear-gradient(top, #ffffe3 0%, #4ca4a6 100%)}
-nav{background:rgba(10,0,5,0.05);padding:25px 0 20px;color:#240e33;text-shadow:0 1px 0 #fff;font:3em Amaranth,"Helvetica Neue",sans-serif;font-weight:700;letter-spacing:-1px;margin-top:20px;margin-bottom:20px;}
+html{background:-webkit-gradient(linear, left top, left bottom, color-stop(0, #4ca4a6), color-stop(1, #240e33));background:-webkit-linear-gradient(top, #4ca4a6 0%, #240e33 100%);background:-moz-linear-gradient(top, #4ca4a6 0%, #240e33 100%);background:linear-gradient(top, #4ca4a6 0%, #240e33 100%)}
+nav{background:rgba(10,0,5,0.05);padding:20px 0;color:#240e33;text-shadow:0 1px 0 rgba(255,255,255,0.25);font:3em Amaranth,"Helvetica Neue",sans-serif;font-weight:700;letter-spacing:-1px;margin-top:20px;margin-bottom:20px;}
 nav span{color:#2f2933;font-weight:400}
 .container{width:700px;margin:0 auto}
-.island{padding:20px 40px;background:rgba(255,255,255,0.50);-webkit-border-radius:4px;-moz-border-radius:4px;border-radius:4px;-webkit-box-shadow:1px 1px 10px rgba(0,0,0,0.25);-moz-box-shadow:1px 1px 10px rgba(0,0,0,0.25);box-shadow:1px 1px 10px rgba(0,0,0,0.25);}
+.island{padding:20px 40px;background:-webkit-gradient(linear, left top, left bottom, color-stop(0, rgba(255,255,255,0.85)), color-stop(1, rgba(245,235,255,0.85)));background:-webkit-linear-gradient(top, rgba(255,255,255,0.85) 0%, rgba(245,235,255,0.85) 100%);background:-moz-linear-gradient(top, rgba(255,255,255,0.85) 0%, rgba(245,235,255,0.85) 100%);background:linear-gradient(top, rgba(255,255,255,0.85) 0%, rgba(245,235,255,0.85) 100%);-webkit-border-radius:4px;-moz-border-radius:4px;border-radius:4px;-webkit-box-shadow:1px 1px 10px rgba(0,0,0,0.35);-moz-box-shadow:1px 1px 10px rgba(0,0,0,0.35);box-shadow:1px 1px 10px rgba(0,0,0,0.35);}
 .island.one_half{width:290px;float:left}
 .boxes{zoom:1;width:780px;margin:0 auto;}
 .boxes:before,.boxes:after{content:"";display:table}
 .boxes:after{clear:both}
 .boxes .one_half:first-child{margin-right:40px}
-.catchphrase{font:2em Alice,Georgia,serif;font-weight:700;letter-spacing:-2px;text-shadow:0 1px 2px rgba(47,41,51,0.50);color:#240e33;text-align:center;width:400px;margin:1em auto}
+.catchphrase{font:2em "Helvetica Neue",sans-serif;font-weight:700;letter-spacing:-1px;text-shadow:0 1px 0 rgba(255,255,255,0.25);color:#2f2933;text-align:center;width:400px;margin:1em auto}
 p{line-height:1.6em;color:#2f2933}
+a{color:#009393;text-decoration:none;}
+a:hover{text-decoration:underline}
 ::selection,::-moz-selection{background:#ff3800;text-shadow:none}
 .caps{text-transform:uppercase}

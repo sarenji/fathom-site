@@ -2,6 +2,8 @@ light-yellow = #FFFFE3
 light-purple = #2F2933
 dark-purple  = #240E33
 red          = #FF3800
+light-blue   = #4CA4A6
+dark-blue    = #009393
 
 html, body
   padding    0
@@ -11,13 +13,13 @@ html, body
   color      #333
 
 html
-  background    linear-gradient(top, light-yellow, #4CA4A6)
+  background    linear-gradient(top, light-blue, dark-purple)
 
 nav
   background     rgba(10, 0, 5, .05)
-  padding        25px 0 20px
+  padding        20px 0
   color          dark-purple
-  text-shadow    0 1px 0 white
+  text-shadow    0 1px 0 rgba(255, 255, 255, .25)
   font           3em Amaranth, "Helvetica Neue", sans-serif
   font-weight    700
   letter-spacing -1px
@@ -33,9 +35,9 @@ nav
 
 .island
   padding        20px 40px
-  background     rgba(255, 255, 255, .5)
+  background     linear-gradient(top, rgba(255, 255, 255, .85), rgba(245, 235, 255, .85))
   border-radius  4px
-  box-shadow     1px 1px 10px rgba(0, 0, 0, .25)
+  box-shadow     1px 1px 10px rgba(0, 0, 0, .35)
 
   &.one_half
     width          290px
@@ -49,11 +51,11 @@ nav
     margin-right   40px
 
 .catchphrase
-  font           2em Alice, Georgia, serif
+  font           2em "Helvetica Neue", sans-serif
   font-weight    700
-  letter-spacing -2px
-  text-shadow    0 1px 2px rgba(47, 41, 51, .5)
-  color          dark-purple
+  letter-spacing -1px
+  text-shadow    0 1px 0 rgba(255, 255, 255, .25)
+  color          light-purple
   text-align     center
   width          400px
   margin         1em auto
@@ -61,6 +63,12 @@ nav
 p
   line-height    1.6em
   color          light-purple
+
+a
+  color             dark-blue
+  text-decoration   none
+  &:hover
+    text-decoration underline
 
 ::selection, ::-moz-selection
   background   red
