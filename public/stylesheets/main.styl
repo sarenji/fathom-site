@@ -16,13 +16,16 @@ html
 nav
   background     rgba(10, 0, 5, .05)
   padding        25px 0 20px
-  color          light-purple
+  color          dark-purple
   text-shadow    0 1px 0 white
-  font           1.5em 'Josefin Sans', 'Helvetica Neue', sans-serif
-  font-weight    100
-  letter-spacing 1px
+  font           2em Amaranth, "Helvetica Neue", sans-serif
+  font-weight    700
+  letter-spacing -1px
   margin-top     20px
   margin-bottom  20px
+  span
+    color        light-purple
+    font-weight  400
 
 .container
   width   700px
@@ -39,6 +42,7 @@ nav
     float          left
 
 .boxes
+  clearfix()
   width          780px
   margin         0 auto
   .one_half:first-child
