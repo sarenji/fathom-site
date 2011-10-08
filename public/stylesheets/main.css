@@ -9,7 +9,7 @@ nav span{color:#240e33;font-weight:400}
 .boxes:before,.boxes:after{content:"";display:table}
 .boxes:after{clear:both}
 .boxes .one_half:first-child{margin-right:40px}
-.catchphrase{font:2em "Helvetica Neue",sans-serif;font-weight:700;letter-spacing:-1px;text-shadow:0 1px 0 rgba(255,255,255,0.25);color:#000;text-align:center;width:400px;margin:1em auto}
+.catchphrase{font:2em "Helvetica Neue",sans-serif;font-weight:700;letter-spacing:-1px;text-shadow:0 1px 0 rgba(255,255,255,0.25);color:#2f2933;text-align:center;width:420px;margin:1em auto}
 p{line-height:1.6em;color:#2f2933}
 a{color:#009393;text-decoration:none;}
 a:hover{text-decoration:underline}
