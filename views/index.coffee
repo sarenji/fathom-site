@@ -7,4 +7,7 @@ div '.boxes', ->
       a href: "http://grantmathews.com", -> "Grant Mathews"
       text "."
   div '.one_half.island', ->
-    p "Example code here."
+    p ->
+      text "See our "
+      a href: "http://github.com/sarenji/fathom", -> "GitHub"
+      text " repo."
